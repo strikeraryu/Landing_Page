@@ -1,0 +1,146 @@
+
+body{
+	background-color: #eee;
+	font-family: 'Lato', sans-serif;
+}
+header{
+  position: fixed;
+  top: 1;
+  float:centre;
+  display: flex;
+  flex-direction:row;
+  background-color: #eee;
+}
+
+iframe{
+	height:50%;
+	width:50%;
+	margin-left:24vw;
+}
+nav > ul{
+	width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	margin-left:40vw;
+}
+li{
+	list-style:none;
+	margin: 1% 0% 1% 0%;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	background-color:#e0dede;
+}
+input{
+	margin-bottom:5%;
+	width: 60%;
+    height: 30px;
+}
+input[type="submit"]{
+	background-color:#f1c40f;
+	font-family:calibri;
+	font-weight:600;
+	border-radius:5px;
+	border:0px;
+	width: 30%;
+    height: 30px;
+}
+p{
+	margin: 0;
+	padding:0;
+}
+ol{
+	width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	margin-right:4vw;
+}
+footer{
+	margin-top: 30px;
+    background-color: #ddd;
+	text-align:right;
+}
+footer > ul > li {
+    padding: 0 10px;
+	margin-right:15px;
+	margin-bottom:0px;
+}
+footer>ul{
+	display: flex;
+	justify-content:flex-end;
+}
+span{
+	margin-top: 0px;
+	margin-right:15px;
+	color:grey;
+}
+#email{
+	border-radius:5px;
+	border:1px solid grey;
+	
+}
+#header-img{
+	height:10%;
+	width:30%;
+}
+
+#how-it-works{
+	margin-top:8%;
+}
+#features{
+	margin-top:5%;
+}
+#pricing{
+	display:flex;
+	flex-direction:row;
+}
+.u_form{
+	margin-top:5%;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	text-align: center;
+}
+.details{
+    text-align: center;
+	width:100%;
+	margin: 0 1% 7% 1%;
+	padding: 0;
+	display:flex;
+	flex-direction:column;
+}
+.product{
+  display:flex;
+  flex-direction:column;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align:center;
+  align-items:center;
+  margin:15px;
+  width:300px;
+  height:350px;
+  font-family: 'Lato', sans-serif;
+}
+.name-product{
+	display:flex;
+	flex-direction:row;
+	padding:15px 70px;
+	align-items:center;
+	text-align:center;
+	font-weight:600;
+	background: #ddd;
+	width:160px;
+	height:25px;
+}
+.button{
+	background-color:#f1c40f;
+	border:0px;
+	width: 30%;
+    height: 35px;
+}
+
